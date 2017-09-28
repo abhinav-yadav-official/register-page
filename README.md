@@ -50,7 +50,18 @@ The directory **src** contains 3 php files:
 **login php** returns a form to client and on submitting, fetches data from database by usernames and compares passwords and on match, takes to  **success.php**, otherwise shows error to client.
 
 **success.php** greets user and retains user session started in **signup.php** or **login.php**. It contains a logout button, which desroys session and takes to **login.php**. This page redirects to **login.php** if user session is not started and so,  it can't be accessed without logging in.
-***
+
+## Screenshots
+![screenshot](screenshots/img1.png)
+![screenshot](screenshots/img2.png)
+![screenshot](screenshots/img3.png)
+![screenshot](screenshots/img4.png)
+![screenshot](screenshots/img5.png)
+![screenshot](screenshots/img6.png)
+![screenshot](screenshots/img7.png)
+
+___
+
 The code is not clean, but good enough (I guess) ;)
 
 You can add it to your server or website, and do anything you want, like improve style or appearance, improve code add new features etc.
