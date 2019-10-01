@@ -172,7 +172,8 @@
     if($post &&$empty_fields) echo "<br><span>Please fill all the fields completely.</span><br>";
     ?>
     <br>
-    <input type="submit" id="submit" value="SignUp"><br><br>
+    <input type="submit" id="submit" value="SignUp"> //SignUp button
+    <br><br>
     Already have a account? <a href="login.php">LogIn</a>.<br><br>
 </form>
 </div>

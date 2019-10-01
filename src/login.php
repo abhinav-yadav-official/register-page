@@ -142,7 +142,8 @@
     if(!empty($empty_fields)&&$empty_fields) echo "<span>Enter username and password.</span>";
     ?>
     <br>
-    <input type="submit" id="submit" value="Login"><br><br>
+    <input type="submit" id="submit" value="Login"> //Login button
+    <br><br>
     Don't have a account? <a href="signup.php">SignUp</a>.<br><br>
 </form>
 </div>

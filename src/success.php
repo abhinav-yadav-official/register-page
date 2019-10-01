@@ -107,7 +107,7 @@
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
     <p>Logged In</p><br>
     Welcome user <?php echo $_SESSION["fname"].' (@'.$_SESSION["uname"].').';?><br><br>
-    <input type="submit" id="submit" name="submit" value="Logout">
+    <input type="submit" id="submit" name="submit" value="Logout"> //Logout button
 </form>
 </div>
 </body>
